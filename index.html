@@ -281,6 +281,9 @@ body.font-inter{font-family:Inter,Arial,sans-serif}body.font-orbitron{font-famil
 body.font-rajdhani{font-family:"Arial Narrow",Arial,sans-serif}body.font-mono{font-family:"Courier New",monospace}body.font-serif{font-family:Georgia,serif}
 @media(max-width:700px){.vizOptionGrid,.fontOptionGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+/* V28.2 — hide the app-level maximize, minimize, and close buttons as requested */
+#pacMaximizeBtn,#pacMinimizeBtn,#pacCloseBtn{display:none!important}
+
 /* App-window controls: browser-safe minimize, maximize and page zoom */
 .windowControl{font-weight:800;transition:background .15s,color .15s;cursor:pointer}
 .windowControl:hover{background:linear-gradient(180deg,#173650,#0a1d2d);color:#fff}
